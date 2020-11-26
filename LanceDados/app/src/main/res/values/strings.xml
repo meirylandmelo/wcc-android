@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lance_dados</string>
+    <string name="lancar_dados">lançar</string>
+    <string name="dados1">dado1</string>
+    <string name="dados2">dado2</string>
+    <string name="image">\@string/image</string>
+    <string name="Dado2">Dado2</string>
+    <string name="Dado1">Dado1</string>
+    <string name="lancar">lançar</string>
+    <string name="register_input_name">Insira seu nome</string>
+    <string name="play_button_play">play</string>
+    <string name="textview">TextView</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView_third" type="id">@id/textView_third</item>
+</resources>

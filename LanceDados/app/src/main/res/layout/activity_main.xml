@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5D0D5"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/lanceDadosBotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:fontFamily="@font/amaranth"
+        android:text="@string/lancar_dados"
+        android:textColor="#C3071E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562"
+        tools:text="@string/lancar" />
+
+    <ImageView
+        android:id="@+id/imagem1"
+        android:layout_width="51dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <ImageView
+        android:id="@+id/dado1"
+        android:layout_width="144dp"
+        android:layout_height="131dp"
+        android:contentDescription="@string/Dado1"
+        app:layout_constraintBottom_toTopOf="@+id/lanceDadosBotao"
+        app:layout_constraintEnd_toStartOf="@+id/dado2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice_1" />
+
+    <ImageView
+        android:id="@+id/dado2"
+        android:layout_width="144dp"
+        android:layout_height="131dp"
+        android:contentDescription="@string/Dado2"
+        app:layout_constraintBottom_toTopOf="@+id/lanceDadosBotao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dado1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice_1" />
+
+    <TextView
+        android:id="@+id/playerNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textColor="#C3071E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/dado1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
